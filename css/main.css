@@ -8,7 +8,7 @@ html {
   margin: 0;
   padding: 10px;
   width: 250px;
-
+  transform: rotate(4deg);
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
@@ -27,11 +27,14 @@ html {
   text-shadow: 1px 1px 3px #000;
   position: absolute;
   text-align: center;
+  top: 120px;
+  left: 80px;
 }
 
 .polaroid:hover {
   transform: rotate(0deg);
-  z-index: 10;
+  z-index: 4;
+  box-shadow: 8px 9px 11px rgba(0, 0, 0, .5);
 
 }
 
@@ -42,7 +45,7 @@ figure:first-child {
 
 }
 
-figure:nth-child(2){
+figure:nth-child(2) {
   left: 30%;
   top: 150px;
   z-index: 3;
